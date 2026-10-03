@@ -36,17 +36,17 @@ class Motor extends Kendaraan {
 }
 
 // Membuat data pelanggan
-let pelanggan1 = new Pelanggan("Nafila", "081234567890", null);
-let pelanggan2 = new Pelanggan("Tasya", "082345678901", null);
-let pelanggan3 = new Pelanggan("lia", "083456789012", null);
+let pelanggan1 = new Pelanggan("Nafila", "088212345678", null);
+let pelanggan2 = new Pelanggan("Tasya", "083898765432", null);
+let pelanggan3 = new Pelanggan("lia", "081545678912", null);
 
 // Menyimpan semua pelanggan dalam array
 let daftarPelanggan = [pelanggan1, pelanggan2, pelanggan3];
 
 // Mencatat transaksi penyewaan kendaraan
-pelanggan1.sewaKendaraan(new Mobil("Toyota Avanza"));
-pelanggan2.sewaKendaraan(new Motor("Honda Vario"));
-pelanggan3.sewaKendaraan(new Mobil("Toyota Innova"));
+pelanggan1.sewaKendaraan(new Mobil("Mitsubishi Xpander"));
+pelanggan2.sewaKendaraan(new Motor("Honda Scoopy"));
+pelanggan3.sewaKendaraan(new Mobil("Daihatsu Ayla"));
 
 // Menampilkan daftar pelanggan yang sedang menyewa kendaraan
 console.log("DAFTAR PELANGGAN YANG SEDANG MENYEWA KENDARAAN");
